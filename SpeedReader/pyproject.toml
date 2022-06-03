@@ -8,7 +8,7 @@ authors = ["connorguy <connor_guy@icloud.com>"]
 python = ">=3.8,<3.11"
 spacy = "^3.3.0"
 spacy-transformers = "1.1.6"
-spacy-streamlit = "1.0.3"
+en_core_web_trf = { git = "https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.3.0/en_core_web_trf-3.3.0-py3-none-any.whl" }
 
 [tool.poetry.dev-dependencies]
 
